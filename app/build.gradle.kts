@@ -11,6 +11,9 @@ plugins {
     application
     id("pl.allegro.tech.build.axion-release") version "1.16.1"
 }
+scmVersion {
+    useHighestVersion.set(true)
+}
 project.version = scmVersion.version
 
 repositories {
