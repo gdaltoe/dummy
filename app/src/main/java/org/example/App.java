@@ -6,7 +6,7 @@ package org.example;
 public class App {
 
     public String getGreeting() {
-        return new Greeting("CPS").getGreeting();
+        return new Greeting("World").getGreeting();
     }
 
     public static void main(String[] args) {
